@@ -1,4 +1,18 @@
 ProjectGorilla::Application.routes.draw do
+  
+  
+  get "pages/hem"
+
+  get "pages/kontakt"
+
+  get "pages/om"
+
+  get "pages/registrera"
+  root                :to => "pages#hem"
+  match '/kontakt',    :to => "pages#kontakt"
+  match "/Om_oss",     :to => "pages#om"
+  match "/registrera", :to => "pages#registrera"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

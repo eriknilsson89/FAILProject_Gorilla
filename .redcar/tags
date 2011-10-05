@@ -1,8 +1,14 @@
-1317744968
+1317808042
 Application	C:/Sites/Project_Gorilla/config/application.rb	  class Application 
 ApplicationController	C:/Sites/Project_Gorilla/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/Project_Gorilla/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	C:/Sites/Project_Gorilla/test/performance/browsing_test.rb	class BrowsingTest 
+PagesController	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	C:/Sites/Project_Gorilla/app/helpers/pages_helper.rb	module PagesHelper
 ProjectGorilla	C:/Sites/Project_Gorilla/config/application.rb	module ProjectGorilla
 TestCase	C:/Sites/Project_Gorilla/test/test_helper.rb	class ActiveSupport::TestCase
+hem	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def hem
+kontakt	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def kontakt
+om	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def om
+registrera	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def registrera
 test_homepage	C:/Sites/Project_Gorilla/test/performance/browsing_test.rb	  def test_homepage
