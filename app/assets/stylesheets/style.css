@@ -1,0 +1,104 @@
+body
+{
+  background: Black;
+}
+p
+{
+  font-size: 13px;
+  font-family: Arial;  
+}
+h1, h2, h3, h4, h5
+{
+  font-family: Myriad Pro, Arial, Sans-serif;
+}
+h1
+{
+  font-size: 40px;
+}
+
+#container
+{
+  width: 800px;
+  margin: auto;
+  color: White;
+}
+
+#content
+{
+  background: Black;
+  width: 800px;
+  min-height: 350px;
+  height: auto;
+  margin-top: -2px;
+  z-index: 10;
+  border-bottom: 3px solid Green;
+}
+#content h1, p
+{
+  margin: 10px;
+}
+#main-nav
+{
+  background: Black;
+  color: White;
+  float: right;
+  width: 300px;
+  height: 35px;
+  border-left: 3px solid Green;
+  border-right: 3px solid Green;
+  border-bottom: 3px solid Green;
+  -moz-border-bottom-left-radius:     10px;
+  -webkit-border-bottom-left-radius:  10px;
+  border-bottom-left-radius:          10px;
+  -moz-border-bottom-right-radius:    10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius:         10px;
+}
+#main-nav ul
+{
+  display: block;
+  float: right;
+  font-size: 18px;
+  font-family: Georgia, Verdana, Sans-serif;
+  text-decoration: none;
+  margin-top: 8px;
+}
+#main-nav li
+{
+  display: inline;
+  padding: 10px;
+}
+#main-nav ul li a:link
+{
+  color : white;
+}
+#main-nav ul li a:visited
+{color : white;}
+#main-nav ul li:hover
+{background : Green;}
+#main-nav ul li a:active
+{color : white;}
+footer
+{
+  background: Green;
+  height: 80px;
+  width: 800px;
+  margin-top: -20px;
+  z-index: 5;
+  -moz-border-bottom-left-radius:     10px;
+  -webkit-border-bottom-left-radius:  10px;
+  border-bottom-left-radius:          10px;
+  -moz-border-bottom-right-radius:    10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius:         10px;
+}
+footer p
+{
+  margin: auto;
+}
+.round 
+{
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}

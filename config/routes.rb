@@ -7,11 +7,9 @@ ProjectGorilla::Application.routes.draw do
 
   get "pages/om"
 
-  get "pages/registrera"
   root                 :to => "pages#index"
   match '/kontakt',    :to => "pages#kontakt"
   match "/om_oss",     :to => "pages#om"
-  match "/registrera", :to => "pages#registrera"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

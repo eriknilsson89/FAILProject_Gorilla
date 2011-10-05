@@ -1,14 +1,14 @@
 class PagesController < ApplicationController
   def index
+    @title = "Start"
   end
 
   def kontakt
+    @title = "Kontakt"
   end
 
   def om
-  end
-
-  def registrera
+    @title = "Om oss"
   end
 
 end

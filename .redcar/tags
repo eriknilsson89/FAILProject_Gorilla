@@ -1,4 +1,4 @@
-1317808811
+1317830240
 Application	C:/Sites/Project_Gorilla/config/application.rb	  class Application 
 ApplicationController	C:/Sites/Project_Gorilla/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/Project_Gorilla/app/helpers/application_helper.rb	module ApplicationHelper
@@ -9,6 +9,7 @@ ProjectGorilla	C:/Sites/Project_Gorilla/config/application.rb	module ProjectGori
 TestCase	C:/Sites/Project_Gorilla/test/test_helper.rb	class ActiveSupport::TestCase
 index	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def index
 kontakt	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def kontakt
+logo	C:/Sites/Project_Gorilla/app/helpers/application_helper.rb	  def logo
 om	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def om
-registrera	C:/Sites/Project_Gorilla/app/controllers/pages_controller.rb	  def registrera
 test_homepage	C:/Sites/Project_Gorilla/test/performance/browsing_test.rb	  def test_homepage
+title	C:/Sites/Project_Gorilla/app/helpers/application_helper.rb	  def title
