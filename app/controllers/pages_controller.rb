@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def hem
+  def index
   end
 
   def kontakt
