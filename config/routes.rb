@@ -1,6 +1,23 @@
 ProjectGorilla::Application.routes.draw do
-  
-  
+  resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
+
+  get "sessions/new"
+
+  get "sessions/create"
+
+  get "sessions/destroy"
+
+  get "users/new"
+
+  get "users/create"
+
+  get "users/update"
+
+  get "users/edit"
+
+  get "users/delete"
+
   get "pages/index"
 
   get "pages/kontakt"
@@ -10,6 +27,9 @@ ProjectGorilla::Application.routes.draw do
   root                 :to => "pages#index"
   match '/kontakt',    :to => "pages#kontakt"
   match "/om_oss",     :to => "pages#om"
+  match "/registrering", :to => "users#new"
+  match '/loggain',  :to => 'sessions#new'
+  match '/loggaut', :to => 'sessions#destroy'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
