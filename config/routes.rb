@@ -15,6 +15,8 @@ ProjectGorilla::Application.routes.draw do
   get "users/update"
 
   get "users/edit"
+  
+  get "users/index"
 
   get "users/delete"
 
@@ -30,6 +32,7 @@ ProjectGorilla::Application.routes.draw do
   match "/registrering", :to => "users#new"
   match '/loggain',  :to => 'sessions#new'
   match '/loggaut', :to => 'sessions#destroy'
+  match '/users',   :to => 'users#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

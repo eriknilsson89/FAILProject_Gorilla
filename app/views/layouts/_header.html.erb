@@ -34,6 +34,9 @@
     <li class="round"><%= link_to "Start", root_path %></li>
     <li class="round"><%= link_to "Profil", current_user %></li>
     <li class="round"><%= link_to "Användarinställningar", edit_user_path(current_user) %></li>
+    <% if current_user.admin? %>
+    <li class="round"><%= link_to "Användare", users_path %></li>
+    <% end %>
     <li class="round"><%= link_to "Om oss", om_oss_path %></li>
     <li class="round"><%= link_to "Kontakt", kontakt_path %></li>
     <li class="round"><%= link_to "Logga ut", loggaut_path, :method => :delete %></li>

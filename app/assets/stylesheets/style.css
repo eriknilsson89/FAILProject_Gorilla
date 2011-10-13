@@ -58,7 +58,7 @@ h1
 {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 13px;
   font-family: Georgia, Verdana, Sans-serif;
   text-decoration: none;
   margin-top: -21px;
@@ -67,10 +67,10 @@ h1
 {
   display: inline;
   float: right;
-  font-size: 18px;
+  font-size: 13px;
   font-family: Georgia, Verdana, Sans-serif;
   text-decoration: none;
-  margin-top: 6px;
+  margin-top:10px;
 }
 #main-nav-out, #main-nav-in li
 {
@@ -198,3 +198,11 @@ footer p
 }
 .error, .alert, .notice, .success, .info {padding:0.8em;margin-bottom:1em;border:2px solid #ddd;}
 .success {background:#e6efc2;color:#264409;border-color:#c6d880;}
+ul.users {
+  margin-top: 1em;
+}
+
+.users li {
+  margin-top: 18px;
+  list-style: none;
+}
